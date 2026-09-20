@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+.vercel/
+*.log
+*.tsbuildinfo
+.env*
+!.env.example
+photo-contact-sheet.png
+
+# Local agent / tooling (not part of the site)
+.agents/
+.codex/
+.impeccable/
