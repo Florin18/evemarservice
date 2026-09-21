@@ -31,7 +31,7 @@ export default function HomePage() {
 
       <section className="section"><div className="shell"><SectionHeading title="De ce EVEMARSERVICE" text="Un proces clar și o soluție adaptată, de la prima discuție până la montaj." /><div className="benefit-grid">{benefits.map((benefit) => <article key={benefit.title}><h3>{benefit.title}</h3><p>{benefit.text}</p></article>)}</div></div></section>
 
-      <section className="section section--sage"><div className="shell process-home"><div className="process-home__intro"><SectionHeading title="De la idee la mobilier montat" text="Șase etape care țin proiectul coerent și ușor de urmărit." /><p>Termenul orientativ de execuție este de 4–6 săptămâni, în funcție de complexitatea proiectului. Mobilierul beneficiază de garanție 24 de luni.</p><TextLink href="/servicii">Descoperă procesul complet</TextLink></div><ProcessSteps compact /></div></section>
+      <section className="section section--sage"><div className="shell process-home"><div className="process-home__intro"><SectionHeading title="De la idee la mobilier montat" text="Șase etape care țin proiectul coerent și ușor de urmărit." /><p>Termenul orientativ de execuție este de 4–6 săptămâni, în funcție de complexitatea proiectului. Mobilierul beneficiază de garanție 12 luni.</p><TextLink href="/servicii">Descoperă procesul complet</TextLink></div><ProcessSteps compact /></div></section>
 
       <ReviewsSection />
       <CTASection />
