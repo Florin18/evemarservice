@@ -11,8 +11,8 @@
   --error: #a2352a;
   --shell: min(1240px, calc(100vw - 96px));
   --header-height: 82px;
-  --font-body: var(--font-sans), Arial, sans-serif;
-  --font-title: var(--font-display), Georgia, serif;
+  --font-body: var(--font-sora), Arial, sans-serif;
+  --font-title: var(--font-sora), Arial, sans-serif;
 }
 
 * { box-sizing: border-box; }
@@ -28,7 +28,7 @@ button, input, textarea, select { font: inherit; }
 button { color: inherit; }
 h1, h2, h3, p { margin-top: 0; }
 h1, h2, h3 { text-wrap: balance; }
-h1, h2 { font-family: var(--font-title); font-weight: 490; letter-spacing: -.025em; line-height: .98; }
+h1, h2 { font-family: var(--font-title); font-weight: 500; letter-spacing: -.035em; line-height: 1; }
 h1 { font-size: clamp(3.2rem, 8vw, 6rem); }
 h2 { font-size: clamp(2.25rem, 5vw, 4.6rem); }
 h3 { font-size: 1.12rem; line-height: 1.25; }

@@ -2,7 +2,7 @@
 
 ## Direcție
 
-Un editorial luminos inspirat din precizia mobilierului la comandă: suprafețe calme, linii clare și fotografii reale ca element dominant. Personalitatea vine din alternanța dintre serif-ul cald și sans-serif-ul tehnic, nu din efecte decorative.
+Un sistem luminos inspirat din precizia mobilierului la comandă: suprafețe calme, linii clare și fotografii reale ca element dominant. Personalitatea vine din geometria coerentă a tipografiei și din proporțiile atent controlate, nu din efecte decorative.
 
 ## Culori
 
@@ -16,8 +16,8 @@ Un editorial luminos inspirat din precizia mobilierului la comandă: suprafețe 
 
 ## Tipografie
 
-- Newsreader: titluri, greutate 450–550, contrast editorial.
-- Manrope: corp, navigare, formulare și controale.
+- Sora: familie unică pentru titluri, corp, navigare, formulare și controale.
+- Titlurile folosesc greutatea 500 și tracking ușor negativ; textul folosește 400, iar acțiunile 600–700.
 - Titlurile sunt în sentence case, fără accente cromatice pe cuvinte izolate.
 - Lungimea textului este limitată la aproximativ 68–72 de caractere.
 

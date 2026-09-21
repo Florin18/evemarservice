@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Manrope, Newsreader } from "next/font/google";
+import { Sora } from "next/font/google";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { WhatsappFloating } from "@/components/whatsapp-floating";
@@ -7,8 +7,7 @@ import { siteConfig } from "@/data/site";
 import { getSiteUrl } from "@/lib/seo";
 import "./globals.css";
 
-const manrope = Manrope({ subsets: ["latin", "latin-ext"], variable: "--font-sans", display: "swap" });
-const newsreader = Newsreader({ subsets: ["latin", "latin-ext"], variable: "--font-display", display: "swap" });
+const sora = Sora({ subsets: ["latin", "latin-ext"], variable: "--font-sora", display: "swap" });
 const siteUrl = getSiteUrl();
 
 export const metadata: Metadata = {
@@ -40,7 +39,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   };
 
   return (
-    <html lang="ro" className={`${manrope.variable} ${newsreader.variable}`}>
+    <html lang="ro" className={sora.variable}>
       <body>
         <a className="skip-link" href="#main-content">Sari la conținut</a>
         <Header />
