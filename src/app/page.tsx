@@ -16,8 +16,10 @@ export default function HomePage() {
         <div className="home-hero__image"><Image src="/images/landing-4k.jpg" alt="Bucătărie la comandă realizată de EVEMARSERVICE" fill priority sizes="100vw" quality={84} /></div>
         <div className="shell home-hero__content">
           <h1>Mobilă la comandă, creată pentru spațiul tău.</h1>
-          <p>Transformăm ideile tale în mobilier personalizat. De la măsurători și proiectare 3D până la producție, transport și montaj, ne ocupăm de fiecare etapă.</p>
-          <div className="button-row"><Link className="button" href="/solicita-oferta">Solicită o ofertă <Icon name="arrow" /></Link><Link className="button button--ghost" href="/portofoliu">Descoperă proiectele</Link></div>
+          <div className="home-hero__aside">
+            <p>Transformăm ideile tale în mobilier personalizat. De la măsurători și proiectare 3D până la producție, transport și montaj, ne ocupăm de fiecare etapă.</p>
+            <div className="button-row"><Link className="button" href="/solicita-oferta">Solicită o ofertă <Icon name="arrow" /></Link><Link className="button button--ghost" href="/portofoliu">Descoperă proiectele</Link></div>
+          </div>
         </div>
       </section>
 
