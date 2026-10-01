@@ -12,7 +12,7 @@ const siteUrl = getSiteUrl();
 
 export const metadata: Metadata = {
   metadataBase: siteUrl ? new URL(siteUrl) : undefined,
-  title: { default: "Mobilă la comandă Focșani și Vrancea | EVEMARSERVICE", template: "%s | EVEMARSERVICE" },
+  title: { default: "EVEMARSERVICE | Mobilă la comandă în Focșani și Vrancea", template: "EVEMARSERVICE | %s" },
   description: siteConfig.description,
   applicationName: siteConfig.name,
   authors: [{ name: siteConfig.name }],
