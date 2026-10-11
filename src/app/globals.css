@@ -389,7 +389,6 @@ p { color: var(--ink-soft); text-wrap: pretty; }
   .home-hero__kicker { font-size: .66rem; line-height: 1.5; }
   .button-row { align-items: stretch; flex-direction: column; }
   .button-row .button { width: 100%; }
-  .home-hero .button-row .button:first-child { width: calc(100% - 68px); }
   .category-grid { gap: 42px; grid-template-columns: 1fr; margin-top: 38px; }
   .category-card { grid-template-rows: auto 1fr; }
   .category-card__image { aspect-ratio: 4 / 3; }
