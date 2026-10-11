@@ -175,6 +175,7 @@ export function PortfolioGallery({ initialFilter = "toate" }: { initialFilter?: 
 
   return (
     <>
+      <p className="gallery-filters-hint">Glisează lateral pentru toate categoriile.</p>
       <div className="gallery-filters" role="group" aria-label="Filtrează fotografiile">
         <button type="button" aria-pressed={filter === "toate"} onClick={() => selectFilter("toate")}>Toate <span>{portfolioImages.length}</span></button>
         {categories.map((category) => {

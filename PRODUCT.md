@@ -30,7 +30,7 @@ Fluxul de ofertare al website-ului pregătește un mesaj pentru WhatsApp; utiliz
 
 - Serviciul include măsurători, proiectare și randări 3D, producție, transport și montaj.
 - Termenul orientativ de execuție este de 4–6 săptămâni, în funcție de complexitatea proiectului; termenul exact se stabilește pentru fiecare comandă.
-- Garanția confirmată pentru mobilier este de 12 luni.
+- Garanția confirmată pentru mobilier este de 24 de luni.
 - Nu există prețuri standard sau estimări automate; fiecare ofertă este adaptată proiectului real.
 - Aria principală este județul Vrancea și zonele apropiate. Pentru alte localități, colaborarea depinde de distanță și de caracteristicile proiectului.
 - Website-ul nu necesită conturi, bază de date sau servicii de profilare.

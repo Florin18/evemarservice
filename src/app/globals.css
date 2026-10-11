@@ -189,6 +189,7 @@ p { color: var(--ink-soft); text-wrap: pretty; }
 
 /* Portfolio */
 .section--portfolio { padding-top: 55px; }
+.gallery-filters-hint { display: none; }
 .gallery-filters { border-bottom: 1px solid var(--line); display: flex; gap: 4px; justify-content: center; overflow-x: auto; padding-bottom: 15px; scrollbar-width: thin; }
 .gallery-filters button { background: transparent; border: 1px solid transparent; border-radius: 100px; cursor: pointer; flex: none; font-size: .82rem; font-weight: 700; min-height: 44px; padding: 9px 16px; }
 .gallery-filters button span { color: #777c79; font-size: .68rem; margin-left: 5px; }
@@ -411,6 +412,7 @@ p { color: var(--ink-soft); text-wrap: pretty; }
   .cta-section__inner { align-items: stretch; flex-direction: column; }
   .page-intro { padding: 70px 0 65px; }
   .page-intro h1 { font-size: clamp(2.75rem, 10.8vw, 3.6rem); }
+  .gallery-filters-hint { color: var(--ink-soft); display: block; font-size: .75rem; margin: 0 0 10px; }
   .portfolio-masonry { column-count: 2; column-gap: 8px; }
   .portfolio-photo { border-radius: 6px; margin-bottom: 8px; }
   .portfolio-photo span { display: none; }
@@ -439,6 +441,7 @@ p { color: var(--ink-soft); text-wrap: pretty; }
   .footer-bottom { align-items: start; flex-direction: column; gap: 12px; }
   .whatsapp-floating { border-radius: 50%; bottom: max(15px, env(safe-area-inset-bottom)); height: 52px; justify-content: center; padding: 0; right: max(15px, env(safe-area-inset-right)); width: 52px; }
   .whatsapp-floating span { display: none; }
+  body:has(.home-page) .whatsapp-floating { display: none; }
 }
 
 @media (max-width: 820px) and (orientation: landscape) {
